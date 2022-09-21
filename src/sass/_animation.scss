@@ -1,0 +1,57 @@
+@keyframes first-animation-paper {
+	from {
+		transform: translate(-50%, -50%) scale(1);
+	}
+	to {
+		transform: translate(-50%, -50%) scale(0);
+	}
+}
+@keyframes first-animation-scissors {
+	from {
+		transform: translate(50%, -50%) scale(1);
+	}
+	to {
+		transform: translate(50%, -50%) scale(0);
+	}
+}
+@keyframes first-animation-rock {
+	from {
+		transform: translate(50%, 50%) scale(1);
+	}
+	to {
+		transform: translate(50%, 50%) scale(0);
+	}
+}
+@keyframes first-animation-options {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0);
+		display: none;
+	}
+}
+@keyframes show-text {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes rings-animation {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+@keyframes rotate-animation {
+	from {
+		transform: rotatey(0deg);
+	}
+	to {
+		transform: rotatey(360deg);
+	}
+}
